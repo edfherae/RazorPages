@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Jc4DivO5A+Y=",
+  "dgSpecHash": "sX7ihkBBMx0=",
   "success": true,
   "projectFilePath": "E:\\Пользователи\\Desktop\\academy\\source\\repos\\RazorPages\\RP_1_2\\RP_1_2.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Comp\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.5\\microsoft.extensions.dependencyinjection.9.0.5.nupkg.sha512",
+    "C:\\Users\\Comp\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.5\\microsoft.extensions.dependencyinjection.abstractions.9.0.5.nupkg.sha512"
+  ],
   "logs": []
 }

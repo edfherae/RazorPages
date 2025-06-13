@@ -13,3 +13,7 @@ E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_3_4\obj\D
 E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_3_4\obj\Debug\net8.0\RP_3_4.pdb
 E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_3_4\obj\Debug\net8.0\RP_3_4.genruntimeconfig.cache
 E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_3_4\obj\Debug\net8.0\ref\RP_3_4.dll
+E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_3_4\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_3_4\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_3_4\obj\Debug\net8.0\RP_3_4.csproj.AssemblyReference.cache
+E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_3_4\obj\Debug\net8.0\RP_3_4.csproj.Up2Date
