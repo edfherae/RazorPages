@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{52490210-4AB2-4FCB-A04B-FD594588C1BD}|RP_7_8\\RP_7_8.csproj|e:\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\desktop\\academy\\source\\repos\\razorpages\\rp_7_8\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{52490210-4AB2-4FCB-A04B-FD594588C1BD}|RP_7_8\\RP_7_8.csproj|solutionrelative:rp_7_8\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3C61987B-AD40-4F41-A86D-E807532362FD}|RP_9_10\\RP_9_10.csproj|e:\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\desktop\\academy\\source\\repos\\razorpages\\rp_9_10\\services\\implementations\\addressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C61987B-AD40-4F41-A86D-E807532362FD}|RP_9_10\\RP_9_10.csproj|solutionrelative:rp_9_10\\services\\implementations\\addressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C61987B-AD40-4F41-A86D-E807532362FD}|RP_9_10\\RP_9_10.csproj|e:\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\desktop\\academy\\source\\repos\\razorpages\\rp_9_10\\services\\implementations\\addressstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C61987B-AD40-4F41-A86D-E807532362FD}|RP_9_10\\RP_9_10.csproj|solutionrelative:rp_9_10\\services\\implementations\\addressstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C61987B-AD40-4F41-A86D-E807532362FD}|RP_9_10\\RP_9_10.csproj|e:\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\desktop\\academy\\source\\repos\\razorpages\\rp_9_10\\services\\iaddressstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C61987B-AD40-4F41-A86D-E807532362FD}|RP_9_10\\RP_9_10.csproj|solutionrelative:rp_9_10\\services\\iaddressstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C61987B-AD40-4F41-A86D-E807532362FD}|RP_9_10\\RP_9_10.csproj|e:\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\desktop\\academy\\source\\repos\\razorpages\\rp_9_10\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C61987B-AD40-4F41-A86D-E807532362FD}|RP_9_10\\RP_9_10.csproj|solutionrelative:rp_9_10\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C61987B-AD40-4F41-A86D-E807532362FD}|RP_9_10\\RP_9_10.csproj|e:\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\desktop\\academy\\source\\repos\\razorpages\\rp_9_10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C61987B-AD40-4F41-A86D-E807532362FD}|RP_9_10\\RP_9_10.csproj|solutionrelative:rp_9_10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C61987B-AD40-4F41-A86D-E807532362FD}|RP_9_10\\RP_9_10.csproj|e:\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\desktop\\academy\\source\\repos\\razorpages\\rp_9_10\\services\\iaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C61987B-AD40-4F41-A86D-E807532362FD}|RP_9_10\\RP_9_10.csproj|solutionrelative:rp_9_10\\services\\iaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C61987B-AD40-4F41-A86D-E807532362FD}|RP_9_10\\RP_9_10.csproj|e:\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\desktop\\academy\\source\\repos\\razorpages\\rp_9_10\\pages\\addresses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C61987B-AD40-4F41-A86D-E807532362FD}|RP_9_10\\RP_9_10.csproj|solutionrelative:rp_9_10\\pages\\addresses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,15 +94,93 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Address.cs",
+              "DocumentMoniker": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\RP_9_10\\Models\\Address.cs",
+              "RelativeDocumentMoniker": "RP_9_10\\Models\\Address.cs",
+              "ToolTip": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\RP_9_10\\Models\\Address.cs",
+              "RelativeToolTip": "RP_9_10\\Models\\Address.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T22:37:05.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAddressService.cs",
+              "DocumentMoniker": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\RP_9_10\\Services\\IAddressService.cs",
+              "RelativeDocumentMoniker": "RP_9_10\\Services\\IAddressService.cs",
+              "ToolTip": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\RP_9_10\\Services\\IAddressService.cs",
+              "RelativeToolTip": "RP_9_10\\Services\\IAddressService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T22:22:56.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddressStorageService.cs",
+              "DocumentMoniker": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\RP_9_10\\Services\\Implementations\\AddressStorageService.cs",
+              "RelativeDocumentMoniker": "RP_9_10\\Services\\Implementations\\AddressStorageService.cs",
+              "ToolTip": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\RP_9_10\\Services\\Implementations\\AddressStorageService.cs",
+              "RelativeToolTip": "RP_9_10\\Services\\Implementations\\AddressStorageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T22:20:58.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IAddressStorageService.cs",
+              "DocumentMoniker": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\RP_9_10\\Services\\IAddressStorageService.cs",
+              "RelativeDocumentMoniker": "RP_9_10\\Services\\IAddressStorageService.cs",
+              "ToolTip": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\RP_9_10\\Services\\IAddressStorageService.cs",
+              "RelativeToolTip": "RP_9_10\\Services\\IAddressStorageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T22:20:09.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\RP_7_8\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "RP_7_8\\Pages\\Index.cshtml",
-              "ToolTip": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\RP_7_8\\Pages\\Index.cshtml",
-              "RelativeToolTip": "RP_7_8\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "Title": "AddressService.cs",
+              "DocumentMoniker": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\RP_9_10\\Services\\Implementations\\AddressService.cs",
+              "RelativeDocumentMoniker": "RP_9_10\\Services\\Implementations\\AddressService.cs",
+              "ToolTip": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\RP_9_10\\Services\\Implementations\\AddressService.cs",
+              "RelativeToolTip": "RP_9_10\\Services\\Implementations\\AddressService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T22:15:45.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Addresses.cshtml",
+              "DocumentMoniker": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\RP_9_10\\Pages\\Addresses.cshtml",
+              "RelativeDocumentMoniker": "RP_9_10\\Pages\\Addresses.cshtml",
+              "ToolTip": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\RP_9_10\\Pages\\Addresses.cshtml",
+              "RelativeToolTip": "RP_9_10\\Pages\\Addresses.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-13T11:08:43.537Z",
+              "WhenOpened": "2025-06-16T22:12:46.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\RP_9_10\\Program.cs",
+              "RelativeDocumentMoniker": "RP_9_10\\Program.cs",
+              "ToolTip": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\RP_9_10\\Program.cs",
+              "RelativeToolTip": "RP_9_10\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T21:27:09.032Z",
               "EditorCaption": ""
             }
           ]

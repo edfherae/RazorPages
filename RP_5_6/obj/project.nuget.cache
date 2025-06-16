@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "aH/Ggm9EoDw=",
+  "dgSpecHash": "u8Z4n27ed2c=",
   "success": true,
   "projectFilePath": "E:\\Пользователи\\Desktop\\academy\\source\\repos\\RazorPages\\RP_5_6\\RP_5_6.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Comp\\.nuget\\packages\\autofac\\8.3.0\\autofac.8.3.0.nupkg.sha512",
     "C:\\Users\\Comp\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.5\\microsoft.extensions.dependencyinjection.9.0.5.nupkg.sha512",
-    "C:\\Users\\Comp\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.5\\microsoft.extensions.dependencyinjection.abstractions.9.0.5.nupkg.sha512"
+    "C:\\Users\\Comp\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.5\\microsoft.extensions.dependencyinjection.abstractions.9.0.5.nupkg.sha512",
+    "C:\\Users\\Comp\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.1\\system.diagnostics.diagnosticsource.8.0.1.nupkg.sha512"
   ],
   "logs": []
 }

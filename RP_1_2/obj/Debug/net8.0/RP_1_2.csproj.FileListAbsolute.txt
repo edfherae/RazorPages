@@ -67,3 +67,7 @@ E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_1_2\obj\D
 E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_1_2\obj\Debug\net8.0\RP_1_2.pdb
 E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_1_2\obj\Debug\net8.0\RP_1_2.genruntimeconfig.cache
 E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_1_2\obj\Debug\net8.0\ref\RP_1_2.dll
+E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_1_2\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_1_2\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_1_2\obj\Debug\net8.0\RP_1_2.csproj.AssemblyReference.cache
+E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_1_2\obj\Debug\net8.0\RP_1_2.csproj.Up2Date

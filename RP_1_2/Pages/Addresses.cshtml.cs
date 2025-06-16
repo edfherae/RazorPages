@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace RP_1_2.Pages
+namespace RP_9_10.Pages
 {
     public class AddressesModel : PageModel
     {
