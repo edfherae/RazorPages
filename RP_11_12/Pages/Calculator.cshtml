@@ -1,0 +1,49 @@
+﻿@page
+@model CalculatorModel
+@{
+    ViewData["Title"] = "Калькулятор";
+}
+
+<h1 class="mb-3">@ViewData["Title"]</h1>
+
+@if (Model.ErrorMessage != null)
+{
+    <p class="alert alert-danger">Ошибка: @Model.ErrorMessage</p>
+}
+
+    <form>
+        <input class="form-control" type="text" name="firstNumber" required/><br />
+
+        <select class="btn btn-light border-success-subtle mb-3" name="operation">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <br />
+
+        <input class="form-control" type="text" name="secondNumber" required/><br />
+
+        <button class="btn btn-light border-success-subtle mb-3" type="submit">Посчитать</button><br />
+    </form>
+
+
+    <p class="h4 p-2 rounded @(Model.Result.Length > 0 ? "bg-success-subtle" : "") ">Результат: @Model.Result</p>
+
+    <script>
+        let inputFields = document.querySelectorAll(".form-control");
+        for(let input of inputFields) {
+            input.addEventListener('input', () => {
+                input.value = input.value.replace(/[^0-9.\-]/g, '');
+
+                if(input.value.indexOf(".") !== input.value.lastIndexOf(".")) {
+                    input.value = input.value.substring(0, input.value.length - 1)
+                }
+
+                const num = parseFloat(input.value);
+                if (isNaN(num)) {
+                    input.value = '';
+                }
+            });
+        }
+    </script>
