@@ -1,0 +1,34 @@
+﻿@page
+@model RP_13_14.Pages.RegistrationModel
+
+<h1>Регистрация</h1>
+
+@if(Model.Message != null)
+{
+	<p class="p-3 alert-success">@Model.Message</p>
+}
+
+<form method="POST">
+	<div class="mb-3">
+		<label asp-for="Name">Имя пользователя:</label>
+		<input class="form-control" asp-for="Name" />
+		<span class="text-danger" asp-validation-for="Name"></span>
+	</div>
+	<div class="mb-3">
+		<label asp-for="Email">Email:</label>
+		<input class="form-control" asp-for="Email" />
+		<span class="text-danger" asp-validation-for="Email"></span>
+	</div>
+	<div class="mb-3">
+		<label asp-for="Password">Пароль:</label>
+		<input class="form-control" asp-for="Password" />
+		<span class="text-danger" asp-validation-for="Password"></span>
+	</div>
+	<div class="mb-3">
+		<label asp-for="ConfirmedPassword">Повторите пароль:</label>
+		<input class="form-control" asp-for="ConfirmedPassword" />
+		<span class="text-danger" asp-validation-for="ConfirmedPassword"></span>
+	</div>
+
+	<button class="btn btn-primary">Зарегистрироваться</button>
+</form>

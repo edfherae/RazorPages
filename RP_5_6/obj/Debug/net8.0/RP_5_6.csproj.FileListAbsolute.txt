@@ -3,6 +3,7 @@ E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_5_6\bin\D
 E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_5_6\bin\Debug\net8.0\RP_5_6.runtimeconfig.json
 E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_5_6\bin\Debug\net8.0\RP_5_6.dll
 E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_5_6\bin\Debug\net8.0\RP_5_6.pdb
+E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_5_6\bin\Debug\net8.0\Autofac.dll
 E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_5_6\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_5_6\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_5_6\obj\Debug\net8.0\RP_5_6.csproj.AssemblyReference.cache
@@ -17,4 +18,3 @@ E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_5_6\obj\D
 E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_5_6\obj\Debug\net8.0\RP_5_6.pdb
 E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_5_6\obj\Debug\net8.0\RP_5_6.genruntimeconfig.cache
 E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_5_6\obj\Debug\net8.0\ref\RP_5_6.dll
-E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_5_6\bin\Debug\net8.0\Autofac.dll

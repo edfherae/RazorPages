@@ -1,0 +1,25 @@
+﻿@page
+@model RP_13_14.Pages.AuthModel
+
+@if(Model.Result != null)
+{
+    <div class="p-3 alert-success border rounded">
+        <span>@Model.Result</span>
+    </div>
+}
+
+<form method="POST">
+    <div>
+        <label asp-for="Email">Email:</label>
+        <input class="form-control" type="email" asp-for="Email" />
+        <span class="text-danger" asp-validation-for="Email"></span>
+    </div>
+
+    <div>
+        <label asp-for="Password">Пароль:</label>
+        <input class="form-control" type="password" asp-for="Password" />
+        <span class="text-danger" asp-validation-for="Password"></span>
+    </div>
+
+    <button type="submit">Отправить</button>
+</form>

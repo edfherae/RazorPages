@@ -7,6 +7,8 @@ E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_7_8\bin\D
 E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_7_8\bin\Debug\net8.0\RP_7_8.runtimeconfig.json
 E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_7_8\bin\Debug\net8.0\RP_7_8.dll
 E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_7_8\bin\Debug\net8.0\RP_7_8.pdb
+E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_7_8\bin\Debug\net8.0\Autofac.dll
+E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_7_8\obj\Debug\net8.0\RP_7_8.csproj.AssemblyReference.cache
 E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_7_8\obj\Debug\net8.0\RP_7_8.GeneratedMSBuildEditorConfig.editorconfig
 E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_7_8\obj\Debug\net8.0\RP_7_8.AssemblyInfoInputs.cache
 E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_7_8\obj\Debug\net8.0\RP_7_8.AssemblyInfo.cs
@@ -28,6 +30,7 @@ E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_7_8\obj\D
 E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_7_8\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.RP_7_8.props
 E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_7_8\obj\Debug\net8.0\staticwebassets.pack.json
 E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_7_8\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_7_8\obj\Debug\net8.0\RP_7_8.csproj.Up2Date
 E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_7_8\obj\Debug\net8.0\RP_7_8.dll
 E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_7_8\obj\Debug\net8.0\refint\RP_7_8.dll
 E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_7_8\obj\Debug\net8.0\RP_7_8.pdb
