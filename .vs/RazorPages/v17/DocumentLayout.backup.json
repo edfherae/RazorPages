@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DEFC3F0B-F5DF-4B01-8815-FB0F36B05028}|RP_13_14\\RP_13_14.csproj|e:\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\desktop\\academy\\source\\repos\\razorpages\\rp_13_14\\pages\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DEFC3F0B-F5DF-4B01-8815-FB0F36B05028}|RP_13_14\\RP_13_14.csproj|solutionrelative:rp_13_14\\pages\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2FCF92F4-3E87-48F7-AD26-822E14508652}|RP_15_16\\RP_15_16.csproj|e:\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\desktop\\academy\\source\\repos\\razorpages\\rp_15_16\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FCF92F4-3E87-48F7-AD26-822E14508652}|RP_15_16\\RP_15_16.csproj|solutionrelative:rp_15_16\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DEFC3F0B-F5DF-4B01-8815-FB0F36B05028}|RP_13_14\\RP_13_14.csproj|e:\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\desktop\\academy\\source\\repos\\razorpages\\rp_13_14\\pages\\registration.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DEFC3F0B-F5DF-4B01-8815-FB0F36B05028}|RP_13_14\\RP_13_14.csproj|solutionrelative:rp_13_14\\pages\\registration.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FCF92F4-3E87-48F7-AD26-822E14508652}|RP_15_16\\RP_15_16.csproj|e:\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\desktop\\academy\\source\\repos\\razorpages\\rp_15_16\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FCF92F4-3E87-48F7-AD26-822E14508652}|RP_15_16\\RP_15_16.csproj|solutionrelative:rp_15_16\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DEFC3F0B-F5DF-4B01-8815-FB0F36B05028}|RP_13_14\\RP_13_14.csproj|e:\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\desktop\\academy\\source\\repos\\razorpages\\rp_13_14\\pages\\auth.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DEFC3F0B-F5DF-4B01-8815-FB0F36B05028}|RP_13_14\\RP_13_14.csproj|solutionrelative:rp_13_14\\pages\\auth.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FCF92F4-3E87-48F7-AD26-822E14508652}|RP_15_16\\RP_15_16.csproj|e:\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\desktop\\academy\\source\\repos\\razorpages\\rp_15_16\\services\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FCF92F4-3E87-48F7-AD26-822E14508652}|RP_15_16\\RP_15_16.csproj|solutionrelative:rp_15_16\\services\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DEFC3F0B-F5DF-4B01-8815-FB0F36B05028}|RP_13_14\\RP_13_14.csproj|e:\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\desktop\\academy\\source\\repos\\razorpages\\rp_13_14\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DEFC3F0B-F5DF-4B01-8815-FB0F36B05028}|RP_13_14\\RP_13_14.csproj|solutionrelative:rp_13_14\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DEFC3F0B-F5DF-4B01-8815-FB0F36B05028}|RP_13_14\\RP_13_14.csproj|e:\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\desktop\\academy\\source\\repos\\razorpages\\rp_13_14\\pages\\auth.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DEFC3F0B-F5DF-4B01-8815-FB0F36B05028}|RP_13_14\\RP_13_14.csproj|solutionrelative:rp_13_14\\pages\\auth.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2FCF92F4-3E87-48F7-AD26-822E14508652}|RP_15_16\\RP_15_16.csproj|e:\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\desktop\\academy\\source\\repos\\razorpages\\rp_15_16\\services\\implementations\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FCF92F4-3E87-48F7-AD26-822E14508652}|RP_15_16\\RP_15_16.csproj|solutionrelative:rp_15_16\\services\\implementations\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,67 +82,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Registration.cshtml.cs",
-              "DocumentMoniker": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\RP_13_14\\Pages\\Registration.cshtml.cs",
-              "RelativeDocumentMoniker": "RP_13_14\\Pages\\Registration.cshtml.cs",
-              "ToolTip": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\RP_13_14\\Pages\\Registration.cshtml.cs*",
-              "RelativeToolTip": "RP_13_14\\Pages\\Registration.cshtml.cs*",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAgwAoAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T09:37:54.837Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Registration.cshtml",
-              "DocumentMoniker": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\RP_13_14\\Pages\\Registration.cshtml",
-              "RelativeDocumentMoniker": "RP_13_14\\Pages\\Registration.cshtml",
-              "ToolTip": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\RP_13_14\\Pages\\Registration.cshtml*",
-              "RelativeToolTip": "RP_13_14\\Pages\\Registration.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-20T09:30:46.074Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\RP_13_14\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "RP_13_14\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\RP_13_14\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "RP_13_14\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-19T21:26:34.613Z",
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\RP_15_16\\Services\\Implementations\\TaskService.cs",
+              "RelativeDocumentMoniker": "RP_15_16\\Services\\Implementations\\TaskService.cs",
+              "ToolTip": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\RP_15_16\\Services\\Implementations\\TaskService.cs",
+              "RelativeToolTip": "RP_15_16\\Services\\Implementations\\TaskService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowC8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T18:12:56.54Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Auth.cshtml.cs",
-              "DocumentMoniker": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\RP_13_14\\Pages\\Auth.cshtml.cs",
-              "RelativeDocumentMoniker": "RP_13_14\\Pages\\Auth.cshtml.cs",
-              "ToolTip": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\RP_13_14\\Pages\\Auth.cshtml.cs",
-              "RelativeToolTip": "RP_13_14\\Pages\\Auth.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAgAAAAAAAAAA==",
+              "Title": "ITaskService.cs",
+              "DocumentMoniker": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\RP_15_16\\Services\\ITaskService.cs",
+              "RelativeDocumentMoniker": "RP_15_16\\Services\\ITaskService.cs",
+              "ToolTip": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\RP_15_16\\Services\\ITaskService.cs",
+              "RelativeToolTip": "RP_15_16\\Services\\ITaskService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T21:17:42.121Z",
+              "WhenOpened": "2025-06-30T18:12:44.968Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Auth.cshtml",
-              "DocumentMoniker": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\RP_13_14\\Pages\\Auth.cshtml",
-              "RelativeDocumentMoniker": "RP_13_14\\Pages\\Auth.cshtml",
-              "ToolTip": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\RP_13_14\\Pages\\Auth.cshtml",
-              "RelativeToolTip": "RP_13_14\\Pages\\Auth.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\RP_15_16\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "RP_15_16\\Pages\\Index.cshtml.cs",
+              "ToolTip": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\RP_15_16\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "RP_15_16\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T18:10:34.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\RP_15_16\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "RP_15_16\\Pages\\Index.cshtml",
+              "ToolTip": "E:\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438\\Desktop\\academy\\source\\repos\\RazorPages\\RP_15_16\\Pages\\Index.cshtml",
+              "RelativeToolTip": "RP_15_16\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAkwJ4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-19T18:18:02.618Z",
+              "WhenOpened": "2025-06-30T18:02:05.144Z",
               "EditorCaption": ""
             }
           ]

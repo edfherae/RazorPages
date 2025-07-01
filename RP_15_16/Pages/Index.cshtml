@@ -1,0 +1,162 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Планировщик задач";
+}
+@inject ITaskService taskService
+
+<!--Модальное окно редактирования задачи-->
+<div class="modal fade" id="updateTaskModal" tabindex="-1" aria-labelledby="updateTaskModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">Редактирование</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post">
+                <div class="modal-body">
+                        <div class="mb-2">
+                            <label class="form-label" asp-for="Title">Заголовок:</label>
+                            <input class="form-control" id="editTitle" asp-for="Title" />
+                            <span class="text-danger" asp-validation-for="Title"></span>
+                        </div>
+
+                        <div class="mb-2">
+                            <label class="form-label" asp-for="Description">Описание:</label>
+                            <input class="form-control" id="editDescription" asp-for="Description" />
+                            <span class="text-danger" asp-validation-for="Description"></span>
+                        </div>
+
+                        <div class="mb-2">
+                            <label class="form-label" asp-for="Expires">Deadline:</label>
+                            <input class="form-control" id="editExpires" asp-for="Expires" />
+                            <span class="text-danger" asp-validation-for="Expires"></span>
+                        </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    <button type="button" class="btn btn-success">Сохранить</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!--Кнопка, показывающая форму создания задачи-->
+<div class="container"> 
+    <button class="new-task-button btn btn-success mb-3">
+        <i class="bi bi-plus-square"></i>
+        Новая задача
+    </button>
+
+    @{
+        string NewTaskFormStyle = Model.ShowNewTaskForm ? "" : "display: none";
+    }
+
+    <form method="post" class="new-task-form" style=@NewTaskFormStyle>
+        <div class="mb-2">
+            <label class="form-label" asp-for="Title">Заголовок:</label>
+            <input class="form-control" asp-for="Title" />
+            <span class="text-danger" asp-validation-for="Title"></span>
+        </div>
+
+        <div class="mb-2">
+            <label class="form-label" asp-for="Description">Описание:</label>
+            <input class="form-control" asp-for="Description" />
+            <span class="text-danger" asp-validation-for="Description"></span>
+        </div>
+
+        <div class="mb-2">
+            <label class="form-label" asp-for="Expires">Deadline:</label>
+            <input class="form-control" asp-for="Expires" />
+            <span class="text-danger" asp-validation-for="Expires"></span>
+        </div>
+
+        <div class="mb-2">
+            <button class="btn btn-success mt-3 mb-3" type="submit">Создать</button>
+        </div>
+    </form>
+
+    @foreach (UserTask task in taskService.GetAllTasks().Reverse<UserTask>())
+    {
+        <div class="card mb-3" data-bs-toggle="modal" data-bs-target="#updateTaskModal" data-id="@task.Id">
+            <div class="card-header d-flex justify-content-between">
+                <div>
+                    <span class="me-2">
+                        <i class="bi bi-calendar-week"></i>
+                        @task.CreationDate.ToShortDateString()
+                    </span>
+                    <span>
+                        <i class="bi bi-clock-history"></i>
+                        @task.CreationDate.ToShortTimeString()
+                    </span>
+                </div>
+                <div>
+                    <a asp-page-handler="DeleteTask" asp-route-taskId="@task.Id">
+                        <i class="bi bi-trash"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card-body @(task.Expires < DateTime.Now && !task.IsCompleted ? "bg-danger-subtle" : "")">
+                <div class="d-flex gap-3 justify-content-between">
+                    <div class="flex-grow-1">
+                        <h3 class="text-break">
+                            @task.Title
+                        </h3>
+                        <p class="text-break">
+                            @{
+                                if(task.Description != null) { <text>@task.Description</text> }
+                                else { <i>Описание отсутствует</i>
+                                }
+                            }
+                        </p>
+                    </div>
+                    @* @if(!(task.Expires < DateTime.Now))
+                    { *@
+                        <div class="d-flex align-items-center">
+                            <a class="btn @(task.IsCompleted ? "btn-danger" : "btn-success")" asp-page-handler="ChangeTaskStatus" asp-route-taskId="@task.Id">
+                                @Html.Raw(task.IsCompleted ? "<i class='bi bi-x'></i> Снять метку" : "<i class='bi bi-check-lg'></i> Отметить")
+                            </a>
+                        </div>
+                    @* } *@
+                </div>
+            </div>
+
+            @{
+                if (task.IsCompleted)
+                {
+                    <div class="card-footer bg-success text-light">
+                        <i class="bi bi-check-circle"></i>
+                        Выполнено
+                    </div>
+                }
+                else if(task.Expires != null)
+                {
+                    <div class="card-footer @(task.Expires < DateTime.Now ? "bg-danger text-light" : "")">
+                        <i class="bi bi-hourglass-split"></i>
+                        @(task.Expires < DateTime.Now ? $"Время вышло! Deadline: {task.Expires}" : $"Deadline: {task.Expires}")
+                    </div>
+                }
+            }
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        $('.new-task-button').on('click', () => {
+            $('.new-task-form').toggle();
+        });
+
+            <script>
+        document.querySelectorAll(".card[data-bs-toggle='modal']").forEach(card =>{
+            card.addEventListener('click', () => {
+                let taskId = card.getAttribute("data-id");
+                fetch
+            })
+        })
+    </script>
+        
+    </script>
+}

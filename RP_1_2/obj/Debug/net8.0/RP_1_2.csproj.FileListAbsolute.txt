@@ -41,3 +41,4 @@ E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_1_2\obj\D
 E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_1_2\obj\Debug\net8.0\RP_1_2.RazorAssemblyInfo.cache
 E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_1_2\obj\Debug\net8.0\RP_1_2.RazorAssemblyInfo.cs
 E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_1_2\obj\Debug\net8.0\RP_1_2.sourcelink.json
+E:\Пользователи\Desktop\academy\source\repos\RazorPages\RP_1_2\obj\Debug\net8.0\rpswa.dswa.cache.json
