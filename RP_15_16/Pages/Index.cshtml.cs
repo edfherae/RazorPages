@@ -2,6 +2,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using RP_15_16.Services;
 using System.ComponentModel.DataAnnotations;
+using System.Text;
+using System.Text.Json;
+using System.Text.Json.Serialization;
+
+using RP_15_16.Models;
 
 namespace RP_15_16.Pages
 {
@@ -29,11 +34,20 @@ namespace RP_15_16.Pages
 			_taskService = taskService;
 		}
 
-		public IActionResult OnPost()
+		public IActionResult OnPostCreateTask()
 		{
 			if(!ModelState.IsValid)
 			{
 				ShowNewTaskForm = true;
+				return Page();
+			}
+
+			_taskService.AddTask(Title, Description, Expires);
+			return RedirectToPage("/index");
+		}public IActionResult OnPostUpdateTask()
+		{
+			if(!ModelState.IsValid)
+			{
 				return Page();
 			}
 
@@ -50,6 +64,25 @@ namespace RP_15_16.Pages
 		{
 			_taskService.DeleteTask(taskId);
 			return Page();
+		}
+		public IActionResult OnGetGetTaskById(int taskId)
+		{
+			//Довольно плохое решение
+
+			UserTask? task = _taskService.GetTaskById(taskId);
+			string jsTaskDate = null;
+			if (task.Expires != null) jsTaskDate = task.Expires.Value.ToString("yyyy-MM-ddTHH:mm");
+
+			if (task != null)
+			{
+				string jsonTask = $"{{ \"Id\": \"{task.Id}\", \"Title\": \"{task.Title}\", \"Description\": \"{task.Description ?? null}\", \"Expires\": \"{jsTaskDate}\" }}";
+				//return Content(JsonSerializer.Serialize(_taskService.GetTaskById(taskId)), "application/json; charset=utf-8");
+				return Content(jsonTask, "application/json; charset=utf-8");
+			}
+			else
+			{
+				return new NotFoundResult();
+			}
 		}
 	}
 }

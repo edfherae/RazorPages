@@ -13,8 +13,10 @@
                 <h1 class="modal-title fs-5">Редактирование</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form method="post">
+            <form method="POST" asp-page-handler="UpdateTask">
                 <div class="modal-body">
+                        <input name="taskId" id="taskIdInput" value="" hidden />
+
                         <div class="mb-2">
                             <label class="form-label" asp-for="Title">Заголовок:</label>
                             <input class="form-control" id="editTitle" asp-for="Title" />
@@ -35,7 +37,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-                    <button type="button" class="btn btn-success">Сохранить</button>
+                    <button type="submit" class="btn btn-success">Сохранить</button>
                 </div>
             </form>
         </div>
@@ -53,7 +55,7 @@
         string NewTaskFormStyle = Model.ShowNewTaskForm ? "" : "display: none";
     }
 
-    <form method="post" class="new-task-form" style=@NewTaskFormStyle>
+    <form method="post" class="new-task-form" style=@NewTaskFormStyle asp-page-handler="CreateTask">
         <div class="mb-2">
             <label class="form-label" asp-for="Title">Заголовок:</label>
             <input class="form-control" asp-for="Title" />
@@ -149,14 +151,21 @@
             $('.new-task-form').toggle();
         });
 
-            <script>
         document.querySelectorAll(".card[data-bs-toggle='modal']").forEach(card =>{
             card.addEventListener('click', () => {
                 let taskId = card.getAttribute("data-id");
-                fetch
+                let json = fetch(`https://localhost:7194/?taskId=${taskId}&handler=GetTaskById`)
+                .then(response => response.json())
+                .then(task => {
+                    console.log(task);
+                    document.getElementById("editTitle").value = task.Title;
+                    document.getElementById("editDescription").value = task.Description;
+                    document.getElementById("editExpires").value = task.Expires;
+                    document.getElementById("taskIdInput").value = task.Id;
+                })
+                .catch(exception => console.log(exception));
             })
-        })
-    </script>
+        });
         
     </script>
 }
